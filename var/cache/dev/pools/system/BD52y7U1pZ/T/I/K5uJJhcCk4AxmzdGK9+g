@@ -1,0 +1,39 @@
+<?php //App%255CController%255CApiHistoryController%2523fetchHistories
+
+return [PHP_INT_MAX, static function () { return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
+    $o = [
+        clone (($p = &\Symfony\Component\VarExporter\Internal\Registry::$prototypes)['FOS\\RestBundle\\Controller\\Annotations\\View'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('FOS\\RestBundle\\Controller\\Annotations\\View')),
+        clone ($p['FOS\\RestBundle\\Controller\\Annotations\\Get'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('FOS\\RestBundle\\Controller\\Annotations\\Get')),
+    ],
+    null,
+    [
+        'FOS\\RestBundle\\Controller\\Annotations\\View' => [
+            'serializerGroups' => [
+                [
+                    'histories',
+                ],
+            ],
+            'serializerEnableMaxDepthChecks' => [
+                false,
+            ],
+        ],
+        'Symfony\\Component\\Routing\\Annotation\\Route' => [
+            'path' => [
+                1 => 'histries',
+            ],
+            'name' => [
+                1 => 'histories',
+            ],
+            'methods' => [
+                1 => [
+                    'GET',
+                ],
+            ],
+        ],
+    ],
+    [
+        $o[0],
+        $o[1],
+    ],
+    []
+); }];

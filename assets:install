@@ -1,0 +1,57 @@
+Script started on 2022-02-05 14:49:41+00:00 [TERM="xterm" TTY="/dev/pts/1" COLUMNS="177" LINES="29"]
+# ^[[A^[[A        clear
+[H[2J[3J# ^[[A^[[A        exi   friendsofsymfony                composer require friendsofsymfony/rest-bundle
+Xdebug: [Config] The setting 'xdebug.remote_connect_back' has been renamed, see the upgrading guide at https://xdebug.org/docs/upgrade_guide#changed-xdebug.remote_connect_back (See: https://xdebug.org/docs/errors#CFG-C-CHANGED)
+Xdebug: [Config] The setting 'xdebug.remote_enable' has been renamed, see the upgrading guide at https://xdebug.org/docs/upgrade_guide#changed-xdebug.remote_enable (See: https://xdebug.org/docs/errors#CFG-C-CHANGED)
+Xdebug: [Config] The setting 'xdebug.remote_port' has been renamed, see the upgrading guide at https://xdebug.org/docs/upgrade_guide#changed-xdebug.remote_port (See: https://xdebug.org/docs/errors#CFG-C-CHANGED)
+Using version [32m^3.3[39m for [32mfriendsofsymfony/rest-bundle[39m
+[32m./composer.json has been updated[39m
+[32mRunning composer update friendsofsymfony/rest-bundle[39m
+[32mLoading composer repositories with package information[39m
+[32mUpdating dependencies[39m
+Nothing to modify in lock file
+[32mInstalling dependencies from lock file (including require-dev)[39m
+Nothing to install, update or remove
+[32mGenerating optimized autoload files[39m
+[32m48 packages you are using are looking for funding.[39m
+[32mUse the `composer fund` command to find out more![39m
+
+Run [33mcomposer recipes[39m at any time to see the status of your Symfony recipes.
+
+Executing script cache:clear [32m[OK][39m
+Executing script assets:install public [32m[OK][39m
+
+# 
+# composer recipes
+Xdebug: [Config] The setting 'xdebug.remote_connect_back' has been renamed, see the upgrading guide at https://xdebug.org/docs/upgrade_guide#changed-xdebug.remote_connect_back (See: https://xdebug.org/docs/errors#CFG-C-CHANGED)
+Xdebug: [Config] The setting 'xdebug.remote_enable' has been renamed, see the upgrading guide at https://xdebug.org/docs/upgrade_guide#changed-xdebug.remote_enable (See: https://xdebug.org/docs/errors#CFG-C-CHANGED)
+Xdebug: [Config] The setting 'xdebug.remote_port' has been renamed, see the upgrading guide at https://xdebug.org/docs/upgrade_guide#changed-xdebug.remote_port (See: https://xdebug.org/docs/errors#CFG-C-CHANGED)
+
+[37;44m                      [39;49m
+[37;44m Available recipes.   [39;49m
+[37;44m                      [39;49m
+
+ * doctrine/annotations 
+ * doctrine/doctrine-bundle 
+ * doctrine/doctrine-migrations-bundle 
+ * friendsofsymfony/rest-bundle 
+ * symfony/console 
+ * symfony/flex 
+ * symfony/framework-bundle 
+ * symfony/maker-bundle 
+ * symfony/routing 
+
+Run:
+ * [32mcomposer recipes vendor/package[39m to see details about a recipe.
+ * [32mcomposer recipes:update vendor/package[39m to update that recipe.
+
+# clear
+[H[2J[3J# php bin/console debug" :router
+Xdebug: [Config] The setting 'xdebug.remote_connect_back' has been renamed, see the upgrading guide at https://xdebug.org/docs/upgrade_guide#changed-xdebug.remote_connect_back (See: https://xdebug.org/docs/errors#CFG-C-CHANGED)
+Xdebug: [Config] The setting 'xdebug.remote_enable' has been renamed, see the upgrading guide at https://xdebug.org/docs/upgrade_guide#changed-xdebug.remote_enable (See: https://xdebug.org/docs/errors#CFG-C-CHANGED)
+Xdebug: [Config] The setting 'xdebug.remote_port' has been renamed, see the upgrading guide at https://xdebug.org/docs/upgrade_guide#changed-xdebug.remote_port (See: https://xdebug.org/docs/errors#CFG-C-CHANGED)
+ ---------------- -------- -------- ------ -------------------------- 
+ [32m Name           [39m [32m Method [39m [32m Scheme [39m [32m Host [39m [32m Path                     [39m 
+ ---------------- -------- -------- ------ -------------------------- 
+  histroy          ANY      ANY      ANY    /api/histroy              
+  _preview_error   ANY      ANY      ANY    /_error/{code}.{_format}  
